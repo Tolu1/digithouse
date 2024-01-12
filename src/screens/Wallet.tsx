@@ -20,7 +20,7 @@ function Header() {
           size={40}
           source={require('../assets/images/avatar.png')}
         />
-        <Text style={{fontSize: 18}}>Ajalla Ugo</Text>
+        <Text style={{fontSize: 18, fontWeight: 'bold'}}>Ajalla Ugo</Text>
       </View>
       <NotificationIcon />
     </View>

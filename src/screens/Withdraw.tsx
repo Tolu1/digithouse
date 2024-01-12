@@ -33,7 +33,7 @@ function Header() {
           size={40}
           source={require('../assets/images/avatar.png')}
         />
-        <Text style={{fontSize: 18}}>Ajalla Ugo</Text>
+        <Text style={{fontSize: 18, fontWeight: 'bold'}}>Ajalla Ugo</Text>
       </View>
       <NotificationIcon />
     </View>
@@ -442,7 +442,7 @@ function Withdraw({navigation}: WithdrawProps) {
           ]}
           mode="outlined"
           onPress={() => console.log('Pressed')}>
-          <Text style={styles.moneyText}>20,000</Text>
+          <Text style={[styles.moneyText, {fontSize: 18}]}>20,000</Text>
         </Button>
         <View style={styles.row}>
           <View>
@@ -592,6 +592,7 @@ const styles = StyleSheet.create({
   },
   bottomSheetTitle: {
     fontSize: 18,
+    fontWeight: 'bold',
     paddingBottom: Spacing,
   },
   bottomSheetSubtitle: {

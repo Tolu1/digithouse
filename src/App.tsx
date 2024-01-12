@@ -17,13 +17,14 @@ const theme: typeof DefaultTheme = {
     primaryContainer: Colors.light.white,
     secondary: Colors.light.tint,
     secondaryContainer: Colors.light.tint,
-    onPrimary: Colors.light.white,
-    onPrimaryContainer: Colors.light.black,
-    onSecondary: Colors.light.darkGray,
-    onSecondaryContainer: Colors.light.darkGray,
     surface: Colors.light.lightGray,
     surfaceVariant: Colors.light.gray,
     background: Colors.light.white,
+    onPrimary: Colors.light.white,
+    onPrimaryContainer: Colors.light.black,
+    onSecondary: Colors.light.darkerGray,
+    onSecondaryContainer: Colors.light.darkerGray,
+    onBackground: Colors.light.darkerGray,
   },
 };
 
