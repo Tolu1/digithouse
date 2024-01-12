@@ -87,6 +87,7 @@ function Transactions() {
           title={transaction.title}
           description={transaction.description}
           descriptionStyle={{opacity: 0.8, fontSize: 12}}
+          // style={{backgroundColor: '#f2f200'}}
           left={props => (
             <List.Icon
               {...props}
@@ -108,13 +109,17 @@ function Transactions() {
 function Wallet({navigation}: WalletProps) {
   const {colors} = useTheme();
 
+  const backgroundColorStyle = {
+    backgroundColor: colors.background,
+  };
+
   const bottomSheetRef = useRef<BottomSheet>(null);
   const snapPoints = useMemo(() => ['50%', '80%'], []);
   const handleSheetChanges = useCallback((index: number) => {
     console.log('handleSheetChanges', index);
   }, []);
   return (
-    <SafeAreaView style={styles.safeContainer}>
+    <SafeAreaView style={[styles.safeContainer, backgroundColorStyle]}>
       <Header />
       <View style={styles.container}>
         <WalletCard />
@@ -135,7 +140,7 @@ function Wallet({navigation}: WalletProps) {
             mode="contained-tonal"
             onPress={() => navigation.push('Withdraw')}
             compact>
-            <Text style={{color: colors.onSecondary}}>Withdraw Fundssss</Text>
+            <Text style={{color: colors.onSecondary}}>Withdraw Funds</Text>
           </Button>
         </View>
       </View>

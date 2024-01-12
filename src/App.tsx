@@ -9,7 +9,7 @@ import Login from './screens/Login';
 import Wallet from './screens/Wallet';
 import Withdraw from './screens/Withdraw';
 
-const theme = {
+const theme: typeof DefaultTheme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
@@ -22,6 +22,8 @@ const theme = {
     onSecondary: Colors.light.darkGray,
     onSecondaryContainer: Colors.light.darkGray,
     surface: Colors.light.lightGray,
+    surfaceVariant: Colors.light.gray,
+    background: Colors.light.white,
   },
 };
 
