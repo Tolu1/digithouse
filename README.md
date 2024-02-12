@@ -1,8 +1,12 @@
+# Digit House
+
+<iframe src="https://drive.google.com/file/d/1U07pvTyFM47Pg4vDzixU_TSlU8SLq1b-/preview" width="640" height="480" allow="autoplay"></iframe>
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
