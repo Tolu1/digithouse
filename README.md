@@ -1,6 +1,6 @@
 # Digit House
 
-<iframe src="https://drive.google.com/file/d/1U07pvTyFM47Pg4vDzixU_TSlU8SLq1b-/preview" width="640" height="480" allow="autoplay"></iframe>
+[Video Demo](https://drive.google.com/file/d/1U07pvTyFM47Pg4vDzixU_TSlU8SLq1b-/preview)
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
